@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
-import { Room, IRoom } from '../entities/Room';
-import { User } from '../entities/User';
+import { Room } from '../entities/Room';
 import mongoose from 'mongoose';
 
 export class RoomController {

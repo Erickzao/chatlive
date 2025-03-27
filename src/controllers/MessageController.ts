@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { Message, IMessage } from '../entities/Message';
+import { Message } from '../entities/Message';
 import { Room } from '../entities/Room';
 import mongoose from 'mongoose';
 

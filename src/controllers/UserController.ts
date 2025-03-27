@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { User, IUser } from '../entities/User';
+import { User } from '../entities/User';
 import bcrypt from 'bcryptjs';
 import jwt, { SignOptions, Secret } from 'jsonwebtoken';
 
